@@ -3,3 +3,48 @@
   flex-wrap: wrap;
   justify-content: space-around;
 }
+
+.movie-card {
+  width: 20%;
+  height: 600px;
+  border: 2px solid black;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 50px 0;
+}
+
+.title {
+  width: 100%;
+}
+
+.title h1 {
+  text-align: center;
+  font-size: 1.5em;
+  padding: 5px;
+}
+
+.movie-poster {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.movie-poster img {
+  display: block;
+  width: 270px;
+  height: 370px;
+}
+
+.movie-actions {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 1.2em;
+  padding: 10px;
+}
+
+.movie-rating {
+  margin: 0 40px;
+}
